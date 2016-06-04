@@ -8,6 +8,8 @@ args = sys.argv[2:]
 with open(script_file, 'r') as script_body:
     script = script_body.read()
 
+    print('#!/usr/bin/python3')
+
     if len(args) == 0:
         print(script)
     else:
