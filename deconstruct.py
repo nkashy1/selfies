@@ -11,5 +11,4 @@ with open(script_file, 'r') as script_body:
     if len(args) == 0:
         print(script)
     else:
-        instructions = script.format(*args)
-        print(instructions)
+        print(script.format(*args))
